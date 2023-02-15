@@ -13,9 +13,9 @@ public class C01Variable {
 	// 변수명
 	// 영문대소문자, _, $, 숫자 조합으로 작성가능, 숫자로 시작하면 안됨
 	// 변수명 작성 관습 : lowerCamelCase
-	int $; // 가능은 관습을 따르지 않음
+	int $; // 가능은 하지만 관습을 따르지 않음
 //	int _; // _는 변수명 불가
-	int your_age; // 가능은 관습을 따르지 않음
+	int your_age; // 가능은 하지만 관습을 따르지 않음
 	int yourage; //ok
 	int h3;
 //	int 3h; //숫자로 변수명 시작불가
