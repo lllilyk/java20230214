@@ -30,8 +30,8 @@ public class C13Expression {
 		int i10 = (int) (i9 + l7); //굳이 int로 결과 출력하고 싶으면 강제형변환.
 		
 		// 정수와 실수끼리 연산 결과는 실수
-		int i11 = 30;
-		double d11 = 3.14;
+		int i11 = 50;
+		double d11 = 9.99;
 		
 		double d12 = i11 + d11;
 		System.out.println(d12);

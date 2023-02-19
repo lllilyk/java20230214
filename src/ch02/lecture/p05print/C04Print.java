@@ -11,8 +11,6 @@ public class C04Print {
 		
 		System.out.printf("%n%s, %d, %n%f", "number", 1, 0.1); //format과 argument의 형식이 일치하도록!
 		
-		
-		
 	}
 
 }

@@ -7,7 +7,7 @@ public class C04Scanner {
 		String input = "3 33 555 50";
 		Scanner scanner = new Scanner(input);
 		
-//		String str = scanner.nextLine(); //한줄을 다 읽고 string으로 출력
+//		String str = scanner.nextLine(); //한줄을 다 읽고 string으로 return.
 		
 		//int 하나하나를 읽고 싶다.
 		int num1 = scanner.nextInt(); //띄어쓰기로 token을 구분
@@ -18,6 +18,9 @@ public class C04Scanner {
 		System.out.println(num3); //555
 		int num4 = scanner.nextInt(); 
 		System.out.println(num4); //50
+		
+		System.out.println(num3 + num4);
+		
 	}
 
 }

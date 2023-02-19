@@ -7,7 +7,7 @@ public class C03Scanner {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("첫번째값 입력>");
-		String str1 = scanner.nextLine(); 
+		String str1 = scanner.nextLine(); //nextline이 입력하는 값이 string이므로 string데이터 타입의 변수로 값을 받음
 		
 		System.out.println("두번째값 입력>");
 		String str2 = scanner.nextLine();
@@ -20,35 +20,6 @@ public class C03Scanner {
 		
 		System.out.println(num1 + num2);
 		
-		//
-//		public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
-//		System.out.println("x값 입력: ");
-//		String strX = scanner.nextLine();
-//		int x = Integer.parseInt(strX);
-//		
-//		System.out.println("y값 입력: ");
-//		String strY = scanner.nextLine();
-//		int y = Integer.parseInt(strY);
-//		
-//		int result = x + y;
-//		System.out.println("x + y: " + result);
-//		System.out.println();
-//		
-//		while(true) {
-//			System.out.println("입력 문자열: ");
-//			String data = scanner.nextLine();
-//			if(data.equals("q")) {
-//				break;
-//			}
-//		System.out.println("출력 문자열: " + data);
-//		System.out.println();
-//		}
-//		System.out.println("종료");
-//		
-//		
-//		
-//	}
-
+	
 }
 }

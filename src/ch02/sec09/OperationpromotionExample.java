@@ -1,4 +1,4 @@
-package ch02.sec08;
+package ch02.sec09;
 
 public class OperationpromotionExample {
 	public static void main(String[] args) {
@@ -34,18 +34,6 @@ public class OperationpromotionExample {
 		int v11 = 2;
 		double result7 = ((double) v10) / v11; //괄호 표현 잘해주기
 		System.out.println("result7: " + result7);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	}

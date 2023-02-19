@@ -9,10 +9,10 @@ public class C02Scanner {
 		//엔터를 만날때까지 스캐너가 스캔을 하고 읽다가 엔터를 만나면 다음줄로 넘어감
 		
 		System.out.println("키보드로 작성해보세요>");
-		String line = scanner.nextLine();
+		String line = scanner.nextLine(); //읽으려고 대기중
 		
 		System.out.println("입력된 값 출력");
-		System.out.println(line);
+		System.out.println(line); //위에서 읽은 값 출력
 		
 	}
 

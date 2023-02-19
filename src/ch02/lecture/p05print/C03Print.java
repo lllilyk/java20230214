@@ -2,7 +2,7 @@ package ch02.lecture.p05print;
 
 public class C03Print {
 	public static void main(String[] args) {
-		// printf
+		// printf(format)
 		// 형식에 맞춰서 출력
 		
 		//System.out.printf("오늘의 점심은"); //어떤 형식인지 입력하지 않았으므로 그냥 출력
