@@ -19,7 +19,7 @@ public class Solution120891 {
 //		return clap;
 		
 		
-// 머리의 한계다	
+// 머리의 한계다	수정!@!!
 		int clap = 0;
 
 		do {
