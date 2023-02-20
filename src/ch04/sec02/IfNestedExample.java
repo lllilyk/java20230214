@@ -1,0 +1,21 @@
+package ch04.sec02;
+
+public class IfNestedExample {
+	public static void main(String[] args) {
+		int score = (int)(Math.random()*20) + 81; //81 <= score <= 100
+		System.out.println("점수: " + score);
+		
+		String grade; // 변수 선언
+		
+		if(score>=95) {
+		  grade = "A+";
+		}else {
+			if(score>=85) {
+				grade = "B+";
+			}else {
+				grade = "B";
+			}
+		}
+		System.out.println("학점: " + grade);
+	}
+}
