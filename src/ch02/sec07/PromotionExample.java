@@ -3,6 +3,7 @@ package ch02.sec07;
 public class PromotionExample {
 	public static void main(String[] args) {
 		//자동 타입 변환
+		// byte < int < long < float < double
 		byte byteValue = 10;
 		int intValue = byteValue;
 		System.out.println("intValue: " + intValue);
@@ -23,6 +24,8 @@ public class PromotionExample {
 		floatValue = 100.5F;
 		double doubleValue = floatValue;
 		System.out.println("doubleValue: " + doubleValue);
+		
+		
 		
 		
 		

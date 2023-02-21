@@ -2,6 +2,7 @@ package ch02.sec08;
 
 public class CastingExample {
 	public static void main(String[] args) {
+		// 강제 타입 변환(casting) 의 ()안에 들어가는 타입은 쪼개는 단위
 		int var1 = 10;
 		byte var2 = (byte) var1;
 		System.out.println(var2); //강제 타입 변환 후에 10이 그대로 유지
