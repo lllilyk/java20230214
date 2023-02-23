@@ -5,13 +5,13 @@ public class ArrayCreateByValueListExample2 {
 		//배열 변수 선언
 		int[] scores;
 		//배열 변수에 배열을 대입
-		scores = new int[] {83, 90, 87};
+		scores = new int[] {83, 90, 87}; //최초 변수 선언시 제외 new int[] 필수
 		//배열 항목의 총합을 구하고 출력
-		int sum1 = 0;
-		for(int i = 0; i < 3; i++) {
-			sum1 += scores[i];
+		int sum = 0;
+		for(int i = 0; i < scores.length; i++) {
+			sum += scores[i];
 		}
-		System.out.println("총합 : " + sum1);
+		System.out.println("총합 : " + sum);
 		
 		//배열을 매개값으로 주고, printItem()메소드 호출
 		printItem(new int[] {83, 90, 87});
@@ -23,6 +23,5 @@ public class ArrayCreateByValueListExample2 {
 				System.out.println("score[" + i + "]: " + scores[i]);
 			}
 		}
-		
 	}
 

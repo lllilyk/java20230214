@@ -7,7 +7,7 @@ public class C01Matrix {
 		int[][] arr = new int[3][]; // 행의 길이는 앞[]에
 		System.out.println(arr.length);
 	
-		arr[0] = new int[] {1,3,5,7};
+		arr[0] = new int[] {1,3,5,7}; //arr의 첫번째 행에 다음의 배열을 넣겠다.
 		arr[1] = new int[] {2,4,8,10};
 		arr[2] = new int[] {9,10,11,12};
 	
