@@ -20,6 +20,12 @@ public class MultidimensionalArrayByNewExample {
 		mathScores[1][0] = 86;
 		mathScores[1][1] = 90;
 		mathScores[1][2] = 92;
+		
+		for(int g = 0; g < mathScores.length; g++) {
+			for(int f = 0; f < mathScores[g].length; f++) {
+				System.out.println(mathScores[g][f]);
+			}
+		}
 
 		// 전체 학생의 수학 평균 구하기
 		int totalStudent = 0;
@@ -35,9 +41,9 @@ public class MultidimensionalArrayByNewExample {
 		System.out.println();
 
 		// 각 반의 학생 수가 다를 경우 점수 저장을 위한 2차원 배열 생성
-		int[][] englishScores = new int[2][];
-		englishScores[0] = new int[2];
-		englishScores[1] = new int[3];
+		int[][] englishScores = new int[2][]; //행의 수만 설정
+		englishScores[0] = new int[2]; //첫 번째 행에 원소를 2개 넣겠다.
+		englishScores[1] = new int[3]; //두 번째 행에 원소를 3개 넣겠다. 
 		// 배열 항목 초기값 출력
 		for (int i = 0; i < englishScores.length; i++) { // 반의 수만큼 반복
 			for (int k = 0; k < englishScores[i].length; k++) { // 해당 반의 학생 수만큼 반복
