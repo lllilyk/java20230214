@@ -8,9 +8,10 @@ public class C09RegEx {
 		// 숫자가 아니면 일치
 		System.out.println("0".matches("[^0-9]")); //false
 		System.out.println("a".matches("[^0-9]")); //true
-		System.out.println("z".matches("[^0-9]")); //true
+//		System.out.println("z".matches("[^0-9]")); //true
 		System.out.println(" ".matches("[^0-9]")); //true
 		System.out.println("$".matches("[^0-9]")); //true
 		
 	}
 }
+		

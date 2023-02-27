@@ -9,12 +9,12 @@ public class C15RegEx {
 		String pattern2 = "[0-9]*";
 		
 		System.out.println("".matches(pattern1));
-		System.out.println("".matches(pattern2));
+//		System.out.println("".matches(pattern2));
 		
-		System.out.println("1".matches(pattern1));
+//		System.out.println("1".matches(pattern1));
 		System.out.println("234".matches(pattern2));
 		
-		System.out.println("a".matches(pattern1));
+//		System.out.println("a".matches(pattern1));
 		System.out.println("bb".matches(pattern2));
 		
 		

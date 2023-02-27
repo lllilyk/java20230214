@@ -11,7 +11,7 @@ public class C01RegularExpression {
 		String str = "java,     css,     html   ,     spring";
 		
 		String[] arr1 = str.split(",");
-//		System.out.println(Arrays.toString(arr1));
+		System.out.println(Arrays.toString(arr1));
 		
 		String[] arr2 = str.split("\\s*,\\s*"); // ,를 기준으로 공백을 제거하고 결과 출력 (\\s)는 공백문자들을 의미
 		System.out.println(Arrays.toString(arr2));

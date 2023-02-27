@@ -20,7 +20,9 @@ public class C16RegEx {
 		System.out.println("000".matches(pattern1));
 		System.out.println("00".matches(pattern2));
 		
-		
+		System.out.println("".matches(pattern1));
+		System.out.println("12".matches(pattern1));
+		System.out.println("0".matches(pattern1));	
 		
 	}
 }

@@ -10,7 +10,7 @@ public class C13RegEx {
 		System.out.println("09".matches(pattern));
 		System.out.println("123".matches(pattern));
 		System.out.println("2".matches(pattern)); //false
-		System.out.println("2a".matches(pattern)); //false
+//		System.out.println("2a".matches(pattern)); //false
 		
 		
 		/*
