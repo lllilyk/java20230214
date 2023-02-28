@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Solution9086 {
 	public static void main(String[] args) {
 
+		//문자열의 첫 글자와 마지막 글자를 출력하는 프로그램 작성
+		
 		String input = """
 				3
 				ACDKJFOWIEGHE
