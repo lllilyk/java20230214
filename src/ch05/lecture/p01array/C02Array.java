@@ -25,7 +25,12 @@ public class C02Array {
 		arr5[0] = "hello";
 		arr5[1] = "java";
 		
-		int[][] arr6 = new int[3][4];
+		String[] arr6 = {"hello", "java", "welcome"};
+		System.out.println(arr6[1]);
+		System.out.println(arr6[1].length());
+		
+		
+//		int[][] arr6 = new int[3][4];
 		
 	}
 }

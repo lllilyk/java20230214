@@ -11,7 +11,7 @@ public class Car {
 	
 	static void simulate() {
 		//객체 생성
-		//static member는 instance memeber에 접근 불가능하므로 
+		//static member는 instance member에 접근 불가능하므로 
 		//객체를 생성해야만 접근이 가능
 		Car myCar = new Car();
 		//인스턴스 멤버 사용
