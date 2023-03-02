@@ -1,5 +1,7 @@
 package ch06.lecture.p09package;
 
+//static import의 개수가 1개여도 *로 쓰겠다.
+//window - preference - import검색 - organize imports - 두번째칸1로 변경
 import static ch06.lecture.p09package.package1.MyClass05.*;
 
 //import static ch06.lecture.p09package.package1.MyClass05.method1;

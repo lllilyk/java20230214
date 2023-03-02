@@ -5,7 +5,8 @@ public class MyClass02 {
 	public String name;
 	private int age;
 	
-	//default 접근 제한자(package private 접근 제한자)
+	//default 접근 제한자(package private 접근 제한자) : package 안에서만 접근이 가능하므로
+	//: public도 private도 안 쓴 것
 	boolean married;
 	
 	//메소드

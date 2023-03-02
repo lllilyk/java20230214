@@ -7,9 +7,9 @@ public class C02AccessModifier {
 		MyClass02 o1 = new MyClass02();
 		
 		System.out.println(o1.name);
-		System.out.println(o1.married);//(default) 같은 패키지 내에서만 접근 가능
+		//System.out.println(o1.married);//(default) 같은 패키지 내에서만 접근 가능
 		o1.method();
-		o1.method3();//(default) 같은 패키지 내에서만 접근 가능
+		//o1.method3();//(default) 같은 패키지 내에서만 접근 가능
 		
 	}
 }
