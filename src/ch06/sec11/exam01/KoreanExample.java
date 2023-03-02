@@ -14,7 +14,7 @@ public class KoreanExample {
 		//k1.nation = "USA";
 		//k1.ssn = "123-12-1234";
 		
-		//비 final 필드는 값 변경 가능
+		//비 fianl 필드는 값 변경 가능
 		k1.name = "감자바";
 	}
 }

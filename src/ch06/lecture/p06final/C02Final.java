@@ -6,6 +6,4 @@ public class C02Final {
 	
 	//static final : 상수
 	
-	
-	
 }
