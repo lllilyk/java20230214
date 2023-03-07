@@ -6,7 +6,9 @@ public class Student extends Person {
 	
 	//생성자 선언
 	public Student(String name, int studentNo) {
-		super(name);
+		// 상위클래스 호출
+		// 매개값의 타입과 개수가 일치하는 부모 생성자 호출
+		super(name); 
 		this.studentNo = studentNo;
 	}
 	
