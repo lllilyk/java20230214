@@ -9,12 +9,12 @@ public interface MyInterface02 {
 	
 	
 	default void method1() {
-		System.out.println("공통된 코드들");
+		common();
 		System.out.println("메소드1 코드들");
 	}
 	
 	default void method2() {
-		System.out.println("공통된 코드들");
+		common();
 		System.out.println("메소드2 코드들");
 	}
 }

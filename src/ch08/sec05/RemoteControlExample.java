@@ -25,5 +25,10 @@ public class RemoteControlExample {
 		rc.SetMute(true);
 		rc.SetMute(false);
 		
+		System.out.println();
+		
+		//정적 메소드 호출
+		RemoteControl.changeBattery();
+		
 	}
 }

@@ -1,5 +1,5 @@
 package ch08.lecture.p04etc;
 
-public class C02PrivateMethod {
+public class C02PrivateMethod implements MyInterface02{
 	
 }
