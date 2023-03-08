@@ -13,7 +13,5 @@ public class C04Polymorphism {
 		char c2 = arr[1].charAt(0);
 		char c3 = arr[2].charAt(0);
 		char c4 = arr[3].charAt(0);
-		
-		
 	}
 }

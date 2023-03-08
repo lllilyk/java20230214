@@ -1,5 +1,7 @@
 package ch08.lecture.p03polymorphism;
 
+// 인터페이스로 배열 인스턴스를 생성하는 것도 가능
+
 public class C03Polymorphism {
 	public static void main(String[] args) {
 		MyInterface03[] arr = new MyInterface03[5];

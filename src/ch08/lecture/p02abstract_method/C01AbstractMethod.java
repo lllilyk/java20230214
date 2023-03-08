@@ -14,7 +14,7 @@ public class C01AbstractMethod {
 		o1.method1();
 		o1.method2();
 		
-		System.out.println();
+		System.out.println("---");
 		
 		o2.method1();
 		//o2.method2();//재정의된 메소드이므로 o2에는 없음
