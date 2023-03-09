@@ -19,9 +19,13 @@ class MyClass06 {
 		this.age = age;
 	}
 
-	@Override
+	/*@Override
 	public String toString() {
 		return "나이는 " + age + "살이고 이름은 " + name + "입니다.";
+	}*/
+	
+	@Override
+	public String toString() {
+		return age + name;
 	}
-
 }

@@ -8,6 +8,9 @@ public class Array2 {
 		for (int n : nums) {
 			max = (max < n) ? n : max;
 			min = (min > n) ? n : min;
+			
+//			min = Math.min(min, n);
+//		    max = Math.max(max, n);
 		}
 		
 		return max - min;
