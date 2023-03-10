@@ -9,6 +9,6 @@ public class OtherPair<K, V> {
 		this.value = value;
 	}
 	
-	public K getkey() {return key;}
+	public K getKey() {return key;}
 	public V getValue() {return value;}
 }

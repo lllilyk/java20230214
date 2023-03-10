@@ -6,9 +6,8 @@ public class C05GenericMethod {
 		o1.<String>method("java"); //메소드를 호출할 때 어떤 타입을 할건지 타입 아규먼트 작성해주면 ok
 		//파라미터의 타입을 보고 타입 아규먼트를 유추 할 수 있음
 		o1.<Integer>method(9);
-		o1.method("spring");
+		o1.method("spring"); // <String> 생략 가능
 		o1.method(99);
-		
 	}
 }
 

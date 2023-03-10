@@ -9,6 +9,6 @@ public class Pair<K, V> {
 		this.value = value;
 	}
 	
-	public K getkey() {return key;}
-	public V getvalue() {return value;}
+	public K getKey() {return key;}
+	public V getValue() {return value;}
 }
