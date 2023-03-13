@@ -2,9 +2,11 @@ package ch09.lecture.p02anonymous;
 
 public class C05Anonymous {
 	public static void main(String[] args) {
+		//로컬 클래스?
 		MyClass05 o1 = new MyClass05();
 		method1(o1);
 		
+		//로컬 클래스
 		class SubClass05 extends MyClass05 {
 			
 		}
