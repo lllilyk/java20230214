@@ -18,6 +18,9 @@ public class Example {
 		int max1 = maxOrMin((x, y) -> Math.max(x, y));
 		System.out.println("최대값: " + max1);
 		
+		// 스태틱 메소드 참조 !!!!!!!!!!!!!!!!!!!!!!!!!
+		int max4 = maxOrMin(Math::max);
+		
 		int max2 = maxOrMin((x, y) -> ((x > y) ? x : y));
 		System.out.println("최대값: " + max2);
 		
@@ -33,6 +36,9 @@ public class Example {
 		// 최소값 얻기
 		int min1 = maxOrMin((x, y) -> Math.min(x, y));
 		System.out.println("최소값: " + min1);
+		
+		// 스태틱 메소드 참조!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		int min4 = maxOrMin(Math::min);
 		
 		int min2 = maxOrMin((x, y) -> ((x > y) ? y : x));
 		System.out.println("최소값: " + min2);

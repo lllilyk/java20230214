@@ -2,6 +2,8 @@ package ch16.lecture.p03reference;
 
 public class C02MethodReference {
 	public static void main(String[] args) {
+		//static method reference
+		
 		MyInterface02 o1 = () -> MyClass02.method1();
 		MyInterface02 o2 = MyClass02::method1;
 		

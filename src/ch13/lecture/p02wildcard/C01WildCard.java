@@ -15,10 +15,10 @@ public class C01WildCard {
 		//o2.item = new Object(); 
 		//object는 string이다x
 		
-		MyClass01<Object> o3 = o2; //x 19번째 줄이 오류니까 이 코드도 오류
+//		MyClass01<Object> o3 = o2; //x 19번째 줄이 오류니까 이 코드도 오류
 //		MyClass01<Object> o3 = MyClass01<String>(); //string이 object다. 
 		
-		o3.item = new Object();  
+		//o3.item = new Object();  
 //		MyClass01<String> = MyClass01<Object>();
 		
 		//근데 타입 vs 타입을 비교할 때는 하위 타입도 대입 불가

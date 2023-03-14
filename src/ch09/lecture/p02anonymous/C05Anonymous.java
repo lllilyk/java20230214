@@ -25,7 +25,7 @@ public class C05Anonymous {
 	}
 	
 	public static void method1(MyClass05 param) {
-		
+		System.out.println("잘 되는군");
 	}
 }
 

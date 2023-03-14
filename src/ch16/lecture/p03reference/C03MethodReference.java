@@ -2,8 +2,8 @@ package ch16.lecture.p03reference;
 
 public class C03MethodReference {
 	public static void main(String[] args) {
-		
-		MyInterface04 o1 = a -> System.out.println(a);
+		//instance method reference
+		//Reference to an instance method of a particular object
 		
 		/*
 		MyInterface04 o1 = new MyInterface04() {
@@ -13,6 +13,8 @@ public class C03MethodReference {
 			}
 		};
 		*/
+		
+		MyInterface04 o1 = a -> System.out.println(a);
 		
 		MyClass03 s1 = new MyClass03();
 		MyInterface04 o2 = a -> s1.method(a);
