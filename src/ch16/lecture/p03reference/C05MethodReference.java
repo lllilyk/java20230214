@@ -2,6 +2,7 @@ package ch16.lecture.p03reference;
 
 public class C05MethodReference {
 	MyInterface06 o1 = (x) -> x.someMethod(); //첫번째 파라미터의 인스턴스메소드 호출
+	//MyInterface06 o1 = (x, ) -> x.someMethod(); //MyClass06 타입의 변수 o를 x로 변경// 상관x
 	MyInterface06 o2 = MyClass06::someMethod; //두번째 파라미터 없으니까 생략
 }
 
@@ -14,3 +15,4 @@ class MyClass06{
 		
 	}
 }
+

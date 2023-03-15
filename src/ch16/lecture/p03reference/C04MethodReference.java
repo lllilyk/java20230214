@@ -7,8 +7,13 @@ public class C04MethodReference {
 		//Reference to an instance method
 		//of an arbitrary object of a particular type
 		
+		//실행클래스에서 인터페이스의 메소드 재정의
+		
 		MyInterface05 o1 = (a, b) -> a.method(b);
 		MyInterface05 o2 = MyClass04::method;
+		
+		//MyClass04 타입을 넣어줘야 하니까 MyClass04 객체 넣어주기
+		o2.action(new MyClass04(), 3);
 	}
 }
 

@@ -15,16 +15,18 @@ public class C03List {
 		list2.add(new ArrayList<>());
 		list2.add(new ArrayList<>());
 
-		System.out.println(list2.get(0).size());
-		System.out.println(list2.get(1).size());
+		//System.out.println("---1---" + list2.get(0).size());
+		//System.out.println("---2---" + list2.get(1).size());
 
-		list2.get(0).add("java");
-		list2.get(0).add("spring");
+		list2.get(0).add("Today");
+		list2.get(0).add("'s ");
 
-		list2.get(1).add("css");
-		list2.get(1).add("html");
-		list2.get(1).add("js");
+		list2.get(1).add("Lunch ");
+		list2.get(1).add("menu ");
+		list2.get(1).add("is");
 
+		System.out.println("list2의 사이즈 : " + list2.size());
+		
 		// 전체 탐색
 		// for
 		System.out.println("for----------------");
@@ -49,5 +51,6 @@ public class C03List {
 		// forEach
 		System.out.println("forEach----------------");
 		list2.forEach(list -> list.forEach(System.out::println));
+		
 	}
 }

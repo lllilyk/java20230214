@@ -29,7 +29,7 @@ public class C02TypeInference {
 		
 		var list1 = new ArrayList<List<String>>();
 		
-		//재할당시 같은 타입만 가능
+		//재할당 시 같은 타입만 가능
 		var f = 10; //integer
 		f = 11; //o
 //		f = 3.14; //x double

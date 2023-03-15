@@ -20,7 +20,7 @@ interface MyInterface07 {
 	MyClass07 action();
 }
 
-interface MyInterface08 {
+interface MyInterface08 { 
 	MyClass07 action(int a);
 }
 
