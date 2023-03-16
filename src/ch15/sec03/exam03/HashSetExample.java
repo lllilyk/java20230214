@@ -18,9 +18,9 @@ public class HashSetExample {
 		while(iterator.hasNext()) {
 			//객체를 하나 가져오기
 			String element = iterator.next();
-			System.out.println(":" + element);
+			System.out.println(element);
+			//가져온 객체를 컬렉션에서 제거
 			if(element.equals("JSP")) {
-				//가져온 객체를 컬렉션에서 제거
 				iterator.remove();
 			}
 		}
@@ -30,8 +30,8 @@ public class HashSetExample {
 		set.remove("JDBC");
 		
 		//객체를 하나씩 가져와서 처리
-		for(String element : set) {
-			System.out.println(element);
+		for(String e : set) {
+			System.out.println(e);
 		}
 	}
 }

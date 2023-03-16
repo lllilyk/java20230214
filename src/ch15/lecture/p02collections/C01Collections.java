@@ -14,7 +14,7 @@ public class C01Collections {
 		
 		//sort 
 		//Sorts the specified list into ascending order, according to the natural ordering of its elements.
-		Collections.sort(list2);
+		Collections.sort(list2); 
 		System.out.println(list2);
 		
 		//max

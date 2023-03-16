@@ -4,44 +4,39 @@ import java.util.*;
 
 public class C04Compare2 {
 	public static void main(String[] args) {
-		var list = new ArrayList<Person00>();
-		list.add(new Person00("kang", "20230315"));
-		list.add(new Person00("seo", "20221203"));
-		list.add(new Person00("chae", "20020605"));
-		list.add(new Person00("song", "20121203"));
-		list.add(new Person00("jung", "20210707"));
+		//List<Start> birthDay = new ArrayList<>();
+		var birthDay = new ArrayList<Start>();
+		birthDay.add(new Start("a", "20000101"));
+		birthDay.add(new Start("b", "20010202"));
+		birthDay.add(new Start("c", "20020303"));
 		
-		//나이순 정렬(나이가 어릴수록 작은 index에)
-		//Collections.sort(list); //C03Compare
-		Collections.sort(list);
-
+		//나이가 어릴수록 작은 index에 들어가도록 정렬
+		Collections.sort(birthDay, (c, t) -> c.getBirth().compareTo(t.getBirth()));
+		System.out.println(birthDay);
+		
+		/*
+		//숫자가 클수록 나이가 어리니까 반대로 정렬되도록 하려면?
+		Collections.sort(birthDay, (s, y) -> y.getBirth().compareTo(s.getBirth()));
+		System.out.println(birthDay);*/
+		
+		//또는
+		Collections.reverse(birthDay);
+		System.out.println(birthDay);
 	}
 }
 
-class Person00 implements Comparable<Person00>{
+class Start {
+	//필드
 	private String name;
 	private String birth;
 	
-	// toString
-	@Override
-	public String toString() {
-		return "Person00 [name=" + name + ", birth=" + birth + "]";
-	}
-
-	-----------------------다시---------------------------
-	@Override
-	public int compareTo(Person00 o) {
-		return 0;
-		}
-	
-	//constructor 
-	public Person00(String name, String birth) {
-		super();
+	//생성자
+	public Start(String name, String birth) {
 		this.name = name;
 		this.birth = birth;
 	}
 
-	//getters&setters
+	//Getter와 Setter
 	public String getName() {
 		return name;
 	}
@@ -57,4 +52,17 @@ class Person00 implements Comparable<Person00>{
 	public void setBirth(String birth) {
 		this.birth = birth;
 	}
+
+	//toString 메소드 재정의
+	@Override
+	public String toString() {
+		return "Start [name=" + name + ", birth=" + birth + "]";
+	}
+	
+	
+	
+
+	
+
+	
 }
