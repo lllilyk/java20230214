@@ -18,6 +18,7 @@ public class Solution2206 {
 			}
 		}
 		
+		/*
 		// value가 홀수 인게 있으면 return false;
 		// entrySet
 		// public set <Map.Entry<K, V>> entrySet()
@@ -29,5 +30,14 @@ public class Solution2206 {
 		}
 		
 		return true;  
+		*/
+		
+		return map.values()
+				.stream()
+				.allMatch(this::even);
+	}
+	
+	private boolean even(int e) {
+		return (e % 2) == 0;
 	}
 }
