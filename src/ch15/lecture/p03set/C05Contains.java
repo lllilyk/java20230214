@@ -4,6 +4,7 @@ import java.util.*;
 
 public class C05Contains {
 	public static void main(String[] args) {
+		//Set <String> Book = new HashSet<>();
 		var set = new HashSet<Book>();
 		set.add(new Book("slamdunk"));
 		set.add(new Book("avatar"));
@@ -17,6 +18,8 @@ public class C05Contains {
 		//object equals 메소드를 썼는데 재정의한 적이 없으므로 false
 		System.out.println(set.contains(new Book("avatar")));
 		// false
+		
+		System.out.println(set);
 		
 		//재정의 해주면 true가능
 		//source > generate hashcode & equals 하고 나면 true
