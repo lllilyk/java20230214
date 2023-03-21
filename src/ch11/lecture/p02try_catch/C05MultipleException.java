@@ -10,9 +10,9 @@ public class C05MultipleException {
 			
 			//Arithmetic Exception : a[0]
 			//ArrayIndexOutOfBoundsException : a[3]
-			int c = 3 / a[3];
-		
-		//여러 exception 발생할 수 있는 겨우
+			int c = 3 / a[0];
+	
+		//여러 exception 발생할 수 있는 경우
 		//여러 catch block 작성 가능
 		} catch (ArithmeticException e) {
 			e.printStackTrace();

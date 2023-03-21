@@ -12,6 +12,14 @@ public class C08MultipleException {
 			//상위 타입의 exception catch블럭을 먼저 작성할 수 없다.
 			e.printStackTrace(); } */ 
 			
+		/*잘못된 코드 
+		catch(RuntimeException e) {
+			e.printStackTrace();
+		} catch(ArithmeticException e) {
+			e.printStackTrace();
+		}*/
+		
+		
 		catch (ArithmeticException e) {
 			e.printStackTrace();
 		} catch (IndexOutOfBoundsException e) {
