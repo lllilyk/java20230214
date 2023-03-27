@@ -7,6 +7,7 @@ public class C02Encapsulation {
 //		
 //		o1.age = 30;
 		
+		//MyClass02의 age필드값을 수정하지는 못하지만 읽어오는 것은 가능
 		System.out.println("나이 : " + o1.getAge());
 		o1.updateAge();
 		
