@@ -46,9 +46,9 @@ public class C02Iterator {
 }
 
 
-//comparater는 주로 파라미터로 사용되는 인터페이스
+//comparator는 주로 파라미터로 사용되는 인터페이스
 //comparable는 implements로 쓰이는 인터페이스
 //comparable이 되어 있으면 natural order니까 비교 가능한데 
 //string 타입은 또 예외임 comparable이 자동 되어있음
-//implements comparable 안되어 있으면 comparater로 해줘야 가능
+//implements comparable 안되어 있으면 comparator로 해줘야 가능
 

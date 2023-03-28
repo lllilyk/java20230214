@@ -24,3 +24,28 @@ class Sub14<T extends Integer> extends Super14<T>{} //상속받는 클래스의 
 // 같은 타입이나 하위타입으로만 제한 가능
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

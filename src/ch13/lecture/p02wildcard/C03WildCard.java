@@ -5,7 +5,7 @@ public class C03WildCard {
 		MyClass03<? super Number> o1 = new MyClass03<Number>();
 		MyClass03<? super Number> o2 = new MyClass03<Object>();
 		
-//		o1.item = new Number(); //ok 추상클래스여서 인스턴스화 못함
+		o1.item = new Number(); //ok 추상클래스여서 인스턴스화 못함
 		o1.item = new Integer(0); //number의 하위타입이면 모두 가능
 //		o1.item = new Object(); //x object는 number다 x
 		
