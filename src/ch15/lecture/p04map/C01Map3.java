@@ -25,10 +25,24 @@ public class C01Map3 {
 		map.remove("song");
 		System.out.println(map.size());
 		
-		System.out.println("keySet 사용");
-		Set<String> onlykey = map.keySet();
-		for (String key : onlykey) {
-			System.out.println((key + ": " + map.get(key)));
+		System.out.println("keyset 메소드-----------------");
+		Set<String> keys = map.keySet(); //키 set 얻기
+		for (String key : keys) {
+			System.out.println((key + ":" + map.get(key)));
 		}
+		System.out.println();
+		
+		System.out.println("forEach 메소드----------------");
+		map.forEach((k, s) -> System.out.println(k + ":" + s));
+		System.out.println();
+		
+		//각 entry를 set으로 가지고 있는 놈을 리턴
+		System.out.println("entrySet 메소드---------------");
+		Set<Map.Entry<String, String>> entries = map.entrySet();
+		for(Map.Entry<String, String> entry : entries) {
+			System.out.println(entry.getKey() + ":" + entry.getValue());
+		}
+		
+		
 	}
 }
