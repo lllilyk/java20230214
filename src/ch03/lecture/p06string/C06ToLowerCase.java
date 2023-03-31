@@ -4,12 +4,10 @@ public class C06ToLowerCase {
 	public static void main(String[] args) {
 		// toLowerCase
 		// 소문자로 바꾼 문자열 리턴
-
 		
 		// toUpperCase
 		// 대문자로 바꾼 문자열 리턴
-		// return type : String		
-		
+		// return type : String
 		
 		String str1 = "I'm IronMan.";
 		String res1 = str1.toLowerCase();
